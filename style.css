@@ -157,7 +157,7 @@ section img {
 
 /* Mobile-First Responsive Design */
 
-@media (max-width: 48rem) {
+@media (max-width: 47.9375rem) {
     .container {
         display: flex;
         flex-direction: column;
@@ -177,7 +177,7 @@ section img {
 
 /* Tablet and Desktop */
 
-@media (min-width: 48.0625rem) and (max-width: 89.9375rem) {
+@media (min-width: 48rem) and (max-width: 89.9375rem) {
     .container {
         grid-template-columns: repeat(2, 1fr);
         gap: 1.5rem;
@@ -188,7 +188,7 @@ section img {
     }
 }
 
-@media (min-width: 90rem) {
+@media (min-width: 90rem) and (max-width: auto) {
     .container {
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
