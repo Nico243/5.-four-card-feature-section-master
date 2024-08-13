@@ -165,16 +165,7 @@ section img {
         gap: 1rem;
     }
     section {
-        width: 18rem;
         margin: 0 auto;
-    }
-    .main-header-one {
-        width: 19rem;
-        font-size: 1.45rem;
-    }
-    .main-header-two {
-        width: 19rem;
-        font-size: 1.45rem;
     }
     .intro-text {
         text-align: center;
